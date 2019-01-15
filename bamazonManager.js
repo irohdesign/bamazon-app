@@ -48,6 +48,11 @@ function customerStart() {
         console.log(res);
     
         console.log(chosenProduct + chosenQuantity);
+        // storeCount variable would be the returned stock_quantity from products table
+
+        // then do an if statement to compare the storeCount with the chosenQuantity
+
+        // console.log "you're order has been placed" if the store has enough, console.log "insufficient supply" if storeCount < chosenQuantity
     });
 
     console.log(query.sql);
