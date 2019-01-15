@@ -14,3 +14,8 @@ connection.connect(function(err) {
     console.log("Connected!");
     connection.end();
 })
+
+// showing objects for sale
+connection.query("SELECT * FROM products", function(err, res){
+    console.log(res);
+});
