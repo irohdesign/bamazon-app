@@ -1,0 +1,23 @@
+{
+  "name": "bamazon-app",
+  "version": "1.0.0",
+  "description": "mock amazon app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irohdesign/bamazon-app.git"
+  },
+  "author": "jalia evans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irohdesign/bamazon-app/issues"
+  },
+  "homepage": "https://github.com/irohdesign/bamazon-app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "inquirer": "^6.2.1"
+  }
+}
